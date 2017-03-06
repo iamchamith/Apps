@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+    <title>Ezcart</title>
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.material.mobile.min.css" />
+    <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+</head>
+<body >
+    <div ng-app="myApp">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ECart</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar" id="leftMenuPlaceHolder">
+
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <div id="placeHolder" ng-view>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.1.223/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.1.223/js/kendo.all.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="http://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+
+
+    <script src="../../../Scripts/Assert/util/config.js"></script>
+    <script src="../../../Scripts/Assert/util/errorHandler.js"></script>
+    <script src="../../../Scripts/Assert/util/router.js"></script>
+    <script src="../../../Scripts/Assert/appts/vvm/viewModel.js"></script>
+
+    <script src="../../../Scripts/Assert/appts/ts/init.js"></script>
+    <script src="../../../Scripts/Assert/appts/ts/cart.js"></script>
+    <script src="../../../Scripts/Assert/appts/ts/item.js"></script>
+    <script src="../../../Scripts/Assert/appts/ts/user.js"></script>
+
+
+    <script id="template-categories" type="text/x-kendo-template">
+        <ul class="nav nav-sidebar">
+            #for(var key=0;key< data.length;key++){#
+            <li><a href="/Api/Views/default.html\\#categoty#=key#">#=data[key].Value#</a></li>
+            #}#
+        </ul>
+    </script>
+    <script id="template-logoutMenu" type="text/x-kendo-template">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/Api/Views/default.html#auth">Login</a></li>
+        </ul>
+    </script>
+    <script id="template-loginMenu" type="text/x-kendo-template">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/Api/Views/default.html#cart">cart</a></li>
+            <li><a href="/Api/Views/default.html#history">History</a></li>
+            <li><a href="/Api/Views/default.html#settings">Settings</a></li>
+            <li><a href="/Api/Views/default.html#">Logout</a></li>
+        </ul>
+    </script>
+</body>
+
+
+</html>

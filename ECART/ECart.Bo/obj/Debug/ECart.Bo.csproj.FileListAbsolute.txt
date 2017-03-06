@@ -1,0 +1,4 @@
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Bo\bin\Debug\ECart.Bo.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Bo\bin\Debug\ECart.Bo.pdb
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Bo\obj\Debug\ECart.Bo.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Bo\obj\Debug\ECart.Bo.pdb

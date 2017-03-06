@@ -1,0 +1,12 @@
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\ECart.Domain.dll.config
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\ECart.Domain.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\ECart.Domain.pdb
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\ECart.Bo.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\EntityFramework.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\ECart.Bo.pdb
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\EntityFramework.xml
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\obj\Debug\ECart.Domain.csprojResolveAssemblyReference.cache
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\obj\Debug\ECart.Domain.dll
+D:\INTERVIEW 2017\APP\ECART\ECART\ECart.Domain\obj\Debug\ECart.Domain.pdb

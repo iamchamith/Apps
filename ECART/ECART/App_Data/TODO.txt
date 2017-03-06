@@ -1,0 +1,17 @@
+﻿authontication
+------------------
+register - done
+login - done
+change password - done
+logout - done
+
+item crud
+------------
+select all items - done
+select single item - done
+update - done
+delete - done
+insert - done
+
+cart crud
+-----------
