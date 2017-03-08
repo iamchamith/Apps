@@ -46,6 +46,7 @@
     <Compile Include="Bo\ItemBo.cs" />
     <Compile Include="Bo\UserBo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\CustomExceptions.cs" />
     <Compile Include="Utility\Enums.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
